@@ -27,3 +27,37 @@ Send WiFi Login OTPs, Invoice Expiries, and Bandwidth Alerts directly to your cu
 3. Paste the following Universal Bridge URL:
 ```text
 [https://api.5minutesapi.com/v1/bridge/universal?api_key=YOUR_MASTER_API_KEY&template=isp_billing_alert&to=](https://api.5minutesapi.com/v1/bridge/universal?api_key=YOUR_MASTER_API_KEY&template=isp_billing_alert&to=){phone}&var1={message}
+
+2. 💻 Web Hosting & VPS Panels (WHMCS, Blesta)
+Automatically send Meta-approved WhatsApp reminders for new invoices, overdue payments, and account expiries to hosting clients.
+
+How to connect (WHMCS):
+
+Download our WHMCS Addon Script on Dashboard Plugins.
+
+Upload it to your WHMCS server inside /includes/hooks/.
+
+Add your 5MinutesAPI Key inside the file. It will automatically trigger alerts on Invoice Generation.
+
+3. 🏢 B2B CRMs & Point of Sale (UltimatePOS, Perfex CRM)
+Keep your B2B clients updated with Repair Status, Quotation Alerts, and Staff Login OTPs.
+
+How to connect:
+
+In UltimatePOS or Perfex, go to SMS/Notification Settings.
+
+Set the HTTP URL to our Universal Bridge endpoint.
+
+Map the {phone} and {message} variables according to your software's syntax.
+
+🚀 Get Started in 5 Minutes
+Go to 5MinutesAPI.com and create a free developer account.
+
+Generate your Master API Key from the dashboard.
+
+Connect your own business phone number instantly using the Embedded Meta WABA flow.
+
+Copy the Bridge URL, paste it into your software, and you are live!
+
+🎁 Need a Custom Setup? (100% Free Integration)
+Don't have a technical team? Are you migrating from an Unofficial QR Bot? Our integration engineers will set up the official WhatsApp API on your MikroTik/PHPNuxBill or WHMCS server completely free of charge (Limited time offer).
